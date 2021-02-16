@@ -1,5 +1,16 @@
 /* Rob Watson's basic page CSS */
 
+.page {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  color: rgba(255, 255, 255, 0.769);
+}
+
 body {
   background-color: rgba(0, 0, 0, 0.847);
 }
@@ -8,7 +19,7 @@ header {
   color: rgba(255, 255, 255, 0.817); 
   text-align: center;
   font-family: 'Orbitron', sans-serif;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 footer {
